@@ -12,6 +12,7 @@ public class Exercise0511 {
 				
 		System.out.print("Enter number of values: ");
 		int count = input.nextInt();
+		int num = count;
 		if (count > 0 ) {
 		System.out.print("Enter value: ");
 			int small = input.nextInt();
@@ -22,7 +23,7 @@ public class Exercise0511 {
 						small = second;
 					}//if	
 			}//for	
-		System.out.printf("Smallest value after input of %d numbers is: %d", count, small);
+		System.out.printf("Smallest value after input of %d numbers is: %d", num, small);
 		input.close();	
 		}//if
 			else System.out.println("number of values must be more then zero");
